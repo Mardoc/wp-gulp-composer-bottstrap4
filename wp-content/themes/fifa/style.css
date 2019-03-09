@@ -1,0 +1,178 @@
+/*   
+Theme Name: Clean Template
+Version: 1.0
+Tags: clean, development, html5, bootstrap, seo
+Description: Clean wordpress theme with bootstrap
+*/
+
+
+@media (min-width: 979px) { 
+	ul.nav li.dropdown.show-on-hover:hover > ul.dropdown-menu { /* для раскрывания субменю по наведению */
+		display: block;
+	}
+	.comment-list .children { /* для комментов */
+		padding: 0;
+		margin-left: 74px;
+		padding-bottom: 15px;
+	}
+	.comment-list .media {
+		margin-top: 0;
+	}
+}
+
+/* =Дополнительные стили. Можно удалить, чтобы вернуть стандартный вид бута */
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+header {
+    margin: 30px 0px 30px 0px;
+}
+p.logo {
+    color: #000;
+    margin: 0 0 18px;
+    line-height: 1;
+    transition: .5s;
+    font-weight: 600;
+    letter-spacing: -.5px;
+}	
+p.description {
+	font-weight: 300;
+}
+.navbar-default {
+    margin-top: 30px;
+    border: none;
+}
+a {
+    transition: .5s;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    color: #23282d;
+}	
+.navbar-default .navbar-nav>li>a {
+    color: inherit;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: whitesmoke;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: inherit;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-bottom: 30px;
+}
+footer {
+    padding: 60px 0px;
+}
+	
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
