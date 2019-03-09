@@ -35,7 +35,7 @@ var path = {
         img: 'assets/src/img/**/*.*',
         fonts: 'assets/srs/fonts/**/*.*'
     },
-    clean: './public/mardoc/public/*'
+    clean: './wp-content/themes/fifa/js/*'
 };
 
 /* настройки сервера */
